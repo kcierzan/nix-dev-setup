@@ -1,0 +1,37 @@
+- name: Install Brew Packages
+  brew:
+    name: "{{ item }}"
+    state: present
+    groups: "local-mac"
+  with_items:
+    - aircrack-ng
+    - fzf
+    - fasd
+    - ddate
+    - cowsay
+    - gcc
+    - heroku
+    - heroku-toolbelt
+    - htop
+    - httpie
+    - imagemagick
+    - john-jumbo
+    - lynx
+    - mpc
+    - mpd
+    - neofetch
+    - nmap
+    - node
+    - postgresql
+    - python
+    - python3
+    - ranger
+    - ripgrep
+    - ruby
+    - rust
+    - speedtest_cli
+    - sqlite
+    - thefuck
+    - transmission
+    - tree
+    - wireshark

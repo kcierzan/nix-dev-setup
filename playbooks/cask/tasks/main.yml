@@ -1,0 +1,23 @@
+- name: Install homebrew casks
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+    groups: "local-mac"
+  with_items:
+    - 1password
+    - alfred
+    - flux
+    - metasploit
+    - google-drive
+    - karabiner-elements
+    - blockblock
+    - virtualbox
+    - google-chrome
+    - vlc
+    - keka
+    - docker
+    - dropbox
+    - handbrake
+    - pablodraw
+    - sublime-text
+    - transmission

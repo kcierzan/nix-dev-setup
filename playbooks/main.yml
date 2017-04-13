@@ -1,0 +1,17 @@
+- name: Provision My Mac
+  hosts: local-mac
+  connection: local
+  roles:
+    - brew
+    - cask
+    - neovim
+    - jetbrains
+    - tmux
+    - lightline
+    - ncmpcpp
+    - mutt
+    - newsbeuter
+    - weechat
+    - kwm
+    - zsh
+    - ubersicht
